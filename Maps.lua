@@ -54,7 +54,7 @@ local fieldHandler = function( event )
   end
 end
 
-- A native text input field (requires Xcode Simulator build or device build)
+-- A native text input field (requires Xcode Simulator build or device build)
 display.setDefault( "anchorX", 0 )
 display.setDefault( "anchorY", 0 )
 local inputField = native.newTextField( 10, 247, 300, 38 )
